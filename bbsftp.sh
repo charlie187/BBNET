@@ -5,7 +5,7 @@ echo ''
 if [[ $curip != '192.168.0.200' ]]; then
   echo ''
   echo 'Logging into BBNET'
-  sftp -P 4447 -i /home/charlie187/.ssh/bbnet.key 82.174.98.210
+  sftp -P 4447 -i /home/charlie187/.ssh/bbnet.key #remote IP goes Here
   exit
 else
   sftp -P 4447 -i /home/charlie187/.ssh/bbnet.key 192.168.1.203
