@@ -12,3 +12,4 @@ else
   echo 'Logging into BBNET'
   ssh -i /home/charlie187/.ssh/bbnet.key -p 4447 192.168.1.203
 fi
+#
