@@ -10,3 +10,4 @@ if [[ $curip != '192.168.0.200' ]]; then
 else
   sftp -P 4447 -i /home/charlie187/.ssh/bbnet.key 192.168.1.203
 fi
+#
